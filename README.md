@@ -18,7 +18,7 @@ The following features of Insurance management platform are:
 **PosgreSQL** - SQL database\
 **JWT** - Authentication and authorization of REST APIs\
 **Gradle** - Build automation tool\
-**Git** - Version control\
+**Git** - Version control
 
 # Application Structure
 
@@ -26,11 +26,19 @@ The following features of Insurance management platform are:
 The various entities of the application are organized under the *entity* package. The entities are the persistence objects stores as a record in the database.
 
 **Repository**\
-The various repositories of the application are present in the *repository* package. It is a data access layer for interaction with database to perform operations like update, insert, add, delete, read etc.
+The various repositories of the application are present in the *repository* package. It is a data access layer for interaction with database to perform operations like update, insert, add, delete, read etc. 
 
-**Security**
+**Security**\
+The security setting is present under the *security* package for implementing application-level security that offer you a highly customizable way of implementing authentication and authorization. For the REST APIs, JWT token based authentication mechanism is used.
+
+**Service**\
+The service layer is defined under the *service* package that allows to add business functionalities. ClientService, InsurancePolicy and ClaimPolicy are implemented to satisfy different business operations.
+
+**Controller**\
+The last and important layer is the controller layer which is present in the *controller* package. Rest Controller allows to handle all REST APIS such GET, POST, PUT, DELETE requests.
 
 
-**Service**
-
-**Controller**
+# Running The Application Locally
+```
+asdfgfdsa
+```
