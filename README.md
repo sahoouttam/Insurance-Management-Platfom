@@ -14,7 +14,7 @@ The following features of Insurance management platform are:
 
 # Technology
 
-**Spring Boot** - Server side framework
+**Spring Boot** - Server side framework\
 **PosgreSQL** - SQL database
 **JWT** - Authentication and authorization of REST APIs
 
