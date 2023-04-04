@@ -15,15 +15,22 @@ The following features of Insurance management platform are:
 # Technology
 
 **Spring Boot** - Server side framework\
-**PosgreSQL** - SQL database
-**JWT** - Authentication and authorization of REST APIs
+**PosgreSQL** - SQL database\
+**JWT** - Authentication and authorization of REST APIs\
+**Gradle** - Build automation tool\
+**Git** - Version control\
 
 # Application Structure
 
-**Entity**
+**Entity**\
 The various entities of the application are organized under the *entity* package. The entities are the persistence objects stores as a record in the database.
 
-**Repository**
+**Repository**\
 The various repositories of the application are present in the *repository* package. It is a data access layer for interaction with database to perform operations like update, insert, add, delete, read etc.
 
+**Security**
+
+
 **Service**
+
+**Controller**
