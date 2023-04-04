@@ -13,4 +13,5 @@ The following features of Insurance management platform are:
 8. Delete insurance along with their claims
 
 # Technology
+*Spring* *Boot* - Server side framework
 
