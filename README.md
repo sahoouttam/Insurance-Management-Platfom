@@ -39,6 +39,3 @@ The last and important layer is the controller layer which is present in the *co
 
 
 # Running The Application Locally
-```
-asdfgfdsa
-```
