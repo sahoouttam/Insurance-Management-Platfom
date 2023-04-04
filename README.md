@@ -39,3 +39,8 @@ The last and important layer is the controller layer which is present in the *co
 
 
 # Running The Application Locally
+To run the Spring Boot applicaion from a command line in a terminal window, java -jar command can be used. This is provided your Spring Boot app was packaged as an executable jar file.
+> java -jar target/filename.jar
+
+To run the application, run the following command in a terminal window (in the complete) directory:
+> gradle bootRun
