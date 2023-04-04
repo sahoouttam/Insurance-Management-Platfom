@@ -13,5 +13,17 @@ The following features of Insurance management platform are:
 8. Delete insurance along with their claims
 
 # Technology
-*Spring* *Boot* - Server side framework
 
+**Spring Boot** - Server side framework
+**PosgreSQL** - SQL database
+**JWT** - Authentication and authorization of REST APIs
+
+# Application Structure
+
+**Entity**
+The various entities of the application are organized under the *entity* package. The entities are the persistence objects stores as a record in the database.
+
+**Repository**
+The various repositories of the application are present in the *repository* package. It is a data access layer for interaction with database to perform operations like update, insert, add, delete, read etc.
+
+**Service**
